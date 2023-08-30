@@ -11,13 +11,73 @@
     font-family: "PlayfairDislpay";
     src: url(../fontes/PlayfairDisplay-VariableFont_wght.ttf);
   }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  body {
+    position: relative;
+    background-image: url(../imagens/retro-city-sunset-4k-8y-1920x1080.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+  }
+
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid black;
+    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.863);
+    position: fixed;
+    background-color: rgba(243, 3, 3, 0.801);
+    z-index: 1;
+    flex-direction: column;
+    
+  }
+  nav > h2 {
+    display: flex;
+    flex-direction: column;
+  }
+  nav > a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+    
+  }
+  h1{
+    color: rgba(255, 255, 255, 0.452);
+    background-color: rgba(76, 0, 255, 0.295);
+  }
+  
     </style>
     
 </head>
 <body>
-    <h1 style="text-align: center;">João Vítor</h1>
-    <img src="../imagens/20221224_211405-02.jpeg" width="150px" style="border-radius: 50%;">
+    
+    
     <br>
-    <p>Me chamo João Vítor </p>
+    <h1 style="text-align: center;">João Vítor </h1>
+
+
+    <nav>
+      <h2 style="text-align: center;">
+        <a href="#" id="inicio">inicio</a>
+          <a href="#">Trabalhos</a>
+          <a href="#">Competência</a>
+      </h2>
+
+
+
+    </nav>
 </body>
 </html>
